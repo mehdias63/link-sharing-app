@@ -13,9 +13,15 @@ const meta = {
 export default meta
 type Story = StoryObj<typeof meta>
 
-export const Default: Story = {
+export const Primary: Story = {
 	args: {
 		children: 'Default',
+	},
+}
+export const PrimaryDisabled: Story = {
+	args: {
+		children: 'Default',
+		disabled: true,
 	},
 }
 
@@ -23,5 +29,11 @@ export const Secondary: Story = {
 	args: {
 		variant: 'secondary',
 		children: 'Secondary',
+	},
+}
+export const SecondaryDisabled: Story = {
+	args: {
+		children: 'secondary',
+		disabled: true,
 	},
 }
