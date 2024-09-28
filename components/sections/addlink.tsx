@@ -30,7 +30,7 @@ export default function Addlink() {
 				<p>Link #1</p>
 				<p>Remove</p>
 			</div>
-			<label className="text-body-s text-pure-gray">Platform</label>
+			<label className="text-body-s text-dark-gray">Platform</label>
 			<Select>
 				<SelectTrigger className="mb-6">
 					<SelectValue placeholder="Dropdown Field Default" />
@@ -117,7 +117,7 @@ export default function Addlink() {
 					<SelectSeparator />
 				</SelectContent>
 			</Select>
-			<label className="text-body-s text-pure-gray">Link</label>
+			<label className="text-body-s text-dark-gray">Link</label>
 			<div className="flex relative mb-4">
 				<Input
 					type="email"

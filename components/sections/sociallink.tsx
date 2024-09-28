@@ -20,21 +20,21 @@ export default function Sociallink() {
 			</div>
 			<section className="flex flex-col bg-white p-8 rounded-xl">
 				<div className="mb-28">
-					<h5 className="text-2xl font-bold leading-9 text-pure-gray">
+					<h5 className="text-2xl font-bold leading-9 text-dark-gray">
 						Customize your links
 					</h5>
-					<p className="text-body-m text-stone-gray my-6">
+					<p className="text-body-m text-gray my-6">
 						Add/edit/remove links below and then share all your
 						profiles with the world!
 					</p>
 					<Button className="w-full mt-2">+ Add new link</Button>
 				</div>
-				<div className="bg-pure-snow mb-8 p-6 rounded-xl">
+				<div className="bg-light-gray mb-8 p-6 rounded-xl">
 					<div className="flex justify-between items-center mb-8">
-						<p className="text-heading-s text-stone-gray">Link #1</p>
-						<p className="text-body-m text-stone-gray">Remove</p>
+						<p className="text-heading-s text-gray">Link #1</p>
+						<p className="text-body-m text-gray">Remove</p>
 					</div>
-					<label className="text-body-s text-pure-gray">
+					<label className="text-body-s text-dark-gray">
 						Platform
 					</label>
 					<Select>
@@ -49,7 +49,7 @@ export default function Sociallink() {
 							<SelectItem value="system">Item 3</SelectItem>
 						</SelectContent>
 					</Select>
-					<label className="text-body-s text-pure-gray">Link</label>
+					<label className="text-body-s text-dark-gray">Link</label>
 					<div className="flex relative mb-4">
 						<Input
 							type="email"
@@ -63,12 +63,12 @@ export default function Sociallink() {
 						/>
 					</div>
 				</div>
-				<div className="bg-pure-snow mb-8 p-6 rounded-xl">
+				<div className="bg-light-gray mb-8 p-6 rounded-xl">
 					<div className="flex justify-between items-center mb-8">
-						<p className="text-heading-s text-stone-gray">Link #2</p>
-						<p className="text-body-m text-stone-gray">Remove</p>
+						<p className="text-heading-s text-gray">Link #2</p>
+						<p className="text-body-m text-gray">Remove</p>
 					</div>
-					<label className="text-body-s text-pure-gray">
+					<label className="text-body-s text-dark-gray">
 						Platform
 					</label>
 					<Select>
@@ -84,7 +84,7 @@ export default function Sociallink() {
 							<SelectSeparator />
 						</SelectContent>
 					</Select>
-					<label className="text-body-s text-pure-gray">Link</label>
+					<label className="text-body-s text-dark-gray">Link</label>
 					<div className="flex relative mb-4">
 						<Input
 							type="email"
@@ -98,7 +98,7 @@ export default function Sociallink() {
 						/>
 					</div>
 				</div>
-				<div className="w-full h-[.15rem] bg-dark-gray md:mt-20"></div>
+				<div className="w-full h-[.15rem] bg-borders md:mt-20"></div>
 				<Button className="mt-4 w-full md:w-[6rem] md:ml-auto">
 					Save
 				</Button>

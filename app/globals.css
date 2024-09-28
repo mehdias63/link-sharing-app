@@ -61,7 +61,7 @@
 }
 @layer utilities {
 	.item {
-		@apply text-body-s text-pure-gray md:mt-2 md:text-stone-gray md:text-base md:font-normal;
+		@apply text-body-s text-dark-gray md:mt-2 md:text-gray md:text-base md:font-normal;
 	}
 
 	.select-item-wrapper {

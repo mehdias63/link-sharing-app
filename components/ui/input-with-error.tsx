@@ -9,7 +9,7 @@ export default function InputWithError({ error }) {
 				placeholder="Text Field Empty"
 				className={cn(
 					'pr-14 pl-9 py-3 text-body-m',
-					error ? 'border-dark-red placeholder:text-dark-red' : '',
+					error ? 'border-red placeholder:text-red' : '',
 				)}
 			/>
 			<img
@@ -18,7 +18,7 @@ export default function InputWithError({ error }) {
 				alt="icon"
 			/>
 			{error && (
-				<p className="text-dark-red text-body-s absolute bottom-[.45rem] right-0 mr-1">
+				<p className="text-red text-body-s absolute bottom-[.45rem] right-0 mr-1">
 					{error}
 				</p>
 			)}

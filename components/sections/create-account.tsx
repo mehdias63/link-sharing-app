@@ -14,15 +14,15 @@ export default function Create() {
 				<Image src={devlinks} alt="logo" />
 			</div>
 			<div className="mb-8">
-				<h4 className="text-2xl font-bold leading-9 text-pure-gray">
+				<h4 className="text-2xl font-bold leading-9 text-dark-gray">
 					Create account
 				</h4>
-				<p className="text-body-m text-stone-gray">
+				<p className="text-body-m text-gray">
 					Let’s get you started sharing your links!
 				</p>
 			</div>
 			<div className="mb-4">
-				<label className="text-body-s text-pure-gray">
+				<label className="text-body-s text-dark-gray">
 					Email address
 				</label>
 				<div className="flex relative mb-4">
@@ -37,7 +37,7 @@ export default function Create() {
 						alt="icon"
 					/>
 				</div>
-				<label className="text-body-s text-pure-gray">
+				<label className="text-body-s text-dark-gray">
 					Create password
 				</label>
 				<div className="flex relative mb-4">
@@ -52,7 +52,7 @@ export default function Create() {
 						alt="icon"
 					/>
 				</div>
-				<label className="text-body-s text-pure-gray">
+				<label className="text-body-s text-dark-gray">
 					Confirm password
 				</label>
 				<div className="flex relative">
@@ -68,17 +68,15 @@ export default function Create() {
 					/>
 				</div>
 			</div>
-			<p className="text-body-s text-stone-gray">
+			<p className="text-body-s text-gray">
 				Password must contain at least 8 characters
 			</p>
 			<Button className="w-full mt-4">Create new account</Button>
 			<div className="md:flex gap-2 mt-8 items-center justify-center">
-				<p className="text-center text-stone-gray text-body-m">
+				<p className="text-center text-gray text-body-m">
 					Already have an account?
 				</p>
-				<p className="text-center text-royal-violet text-body-m">
-					Login
-				</p>
+				<p className="text-center text-purple text-body-m">Login</p>
 			</div>
 		</section>
 	)

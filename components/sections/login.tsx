@@ -14,15 +14,15 @@ export default function Login() {
 				<Image src={devlinks} alt="logo" />
 			</div>
 			<div className="mb-8">
-				<h4 className="text-2xl font-bold leading-9 text-pure-gray">
+				<h4 className="text-2xl font-bold leading-9 text-dark-gray">
 					Login bla bla
 				</h4>
-				<p className="text-body-m text-stone-gray">
+				<p className="text-body-m text-gray">
 					Add your details below to get back into the app
 				</p>
 			</div>
 			<div className="mb-4">
-				<label className="text-body-s text-pure-gray">
+				<label className="text-body-s text-dark-gray">
 					Email address
 				</label>
 				<div className="flex relative mb-4">
@@ -37,7 +37,7 @@ export default function Login() {
 						alt="icon"
 					/>
 				</div>
-				<label className="text-body-s text-pure-gray">Password</label>
+				<label className="text-body-s text-dark-gray">Password</label>
 				<div className="flex relative">
 					<Input
 						type="password"
@@ -53,10 +53,10 @@ export default function Login() {
 			</div>
 			<Button className="w-full mt-4">Login</Button>
 			<div className="md:flex gap-2 mt-8 items-center justify-center">
-				<p className="text-center text-stone-gray text-body-m">
+				<p className="text-center text-gray text-body-m">
 					Don’t have an account?
 				</p>
-				<p className="text-center text-royal-violet text-body-m">
+				<p className="text-center text-purple text-body-m">
 					Create account
 				</p>
 			</div>
