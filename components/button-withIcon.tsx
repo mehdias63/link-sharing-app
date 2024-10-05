@@ -15,7 +15,7 @@ export default function ButtonWithIcon({
 		>
 			<span className="flex items-center gap-3">
 				{icon}
-				{children}
+				<span className="hidden sm:block">{children}</span>
 			</span>
 		</Button>
 	)
