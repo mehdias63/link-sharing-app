@@ -9,10 +9,11 @@ export default function InputWithIcon({
 	error = '',
 	label = '',
 	id,
+	inputClassName,
 	...props
 }) {
 	return (
-		<>
+		<div className={className}>
 			{label && (
 				<Label
 					className={cn('text-xs', error ? 'text-red' : '')}
@@ -27,10 +28,12 @@ export default function InputWithIcon({
 						'py-3',
 						icon ? 'px-10' : 'px-4',
 						error ? 'text-red border-red' : '',
-						className,
+						inputClassName,
 					)}
 					id={id}
 					name={id}
+					aria-invalid={!!error}
+					aria-describedby={error ? `${id}-error` : undefined}
 					{...props}
 				/>
 				{error && (
@@ -42,6 +45,6 @@ export default function InputWithIcon({
 					<Image src={icon} className="ml-4 z-10" alt="icon" />
 				)}
 			</div>
-		</>
+		</div>
 	)
 }
