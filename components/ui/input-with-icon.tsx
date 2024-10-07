@@ -9,7 +9,7 @@ export default function InputWithIcon({
 	error = '',
 	label = '',
 	id,
-	inputClassName,
+	inputClassName = '',
 	...props
 }) {
 	return (
