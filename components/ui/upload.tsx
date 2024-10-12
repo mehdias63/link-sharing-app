@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image'
 import { Label } from '@/components/ui/label'
 import { useState } from 'react'
