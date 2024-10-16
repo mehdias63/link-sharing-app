@@ -1,3 +1,4 @@
+import Header from '@/components/header'
 import { Button } from '@/components/ui/button'
 import Social from '@/components/ui/social_button'
 
@@ -43,6 +44,7 @@ export default function Home() {
 					icon="/ri_codepen-line.svg"
 				/>
 			</div>
+			<Header />
 		</main>
 	)
 }
